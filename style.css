@@ -26,7 +26,19 @@
 .img{
     width:240px;
     height: 250px;
-    background-color: #fff;
     border-top-left-radius:20px ;
     border-top-right-radius:20px ;
+}
+
+.piza .img{
+    background-image: url(piza.jpg.avif);
+    background-size: cover;
+}
+.burger .img{
+    background-image: url(burger.webp);
+    background-size: cover;
+}
+.sandwich .img{
+    background-image: url(sandwitch.jpg);
+    background-size: cover;
 }
